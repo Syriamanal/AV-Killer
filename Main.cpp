@@ -62,7 +62,6 @@ int main()
         string test = "taskkill /F /T /IM " + processList[i]; // Kill it
         system(test.c_str()); // Run it
     }
-    cout << "\nDone!" << endl; // Done
     getchar();
     return 0;
 }
